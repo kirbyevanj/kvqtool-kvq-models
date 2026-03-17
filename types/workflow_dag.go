@@ -28,6 +28,7 @@ const (
 	ActivityConcatVideo    = "ConcatVideo"
 	ActivityGenerateReport = "GenerateReport"
 	ActivityFMP4Repackage  = "FragmentedMP4Repackage"
+	ActivityRemoteEncX264 = "RemoteEncodeX264"
 )
 
 // ActivityInput is the standard input passed to every Temporal activity.
