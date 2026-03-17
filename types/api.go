@@ -105,6 +105,7 @@ type CreateJobRequest struct {
 type CreateJobResponse struct {
 	JobID  uuid.UUID `json:"job_id"`
 	Status string    `json:"status"`
+	RunID  string    `json:"run_id,omitempty"`
 }
 
 // --- WebSocket ---
