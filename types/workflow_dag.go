@@ -20,8 +20,8 @@ type DAGNode struct {
 
 // Predefined activity type constants matching registered Temporal activities.
 const (
-	ActivityS3Download     = "S3Download"
-	ActivityS3Upload       = "S3Upload"
+	ActivityResDownload    = "ResourceDownload"
+	ActivityResUpload      = "ResourceUpload"
 	ActivityGstEncode      = "GStreamerEncode"
 	ActivityGstMetrics     = "GStreamerMetrics"
 	ActivitySplitVideo     = "SplitVideo"
